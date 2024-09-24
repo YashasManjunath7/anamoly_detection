@@ -13,7 +13,7 @@
 - The specific dataset is the "ambient_temperature_system_failure" CSV file, which tracks temperature data.
 
 ### 3. Model:
-- **Autoencoder**: The notebook uses an autoencoder model, which is a type of neural network that attempts to learn a compressed representation of data (encoding) and then reconstruct it (decoding).
+- **Autoencoder**: This project uses an autoencoder model, which is a type of neural network that attempts to learn a compressed representation of data (encoding) and then reconstruct it (decoding).
 - If the reconstruction error (difference between input and output) is larger than a set threshold, the data point is flagged as an anomaly.
 
 ### 4. Process:
@@ -30,11 +30,11 @@
 - Precision, recall, and F1 score are used to measure the effectiveness of anomaly detection. These metrics are calculated based on the reconstruction error.
 
 ### 6. Visualization:
-- The notebook plots the reconstruction loss for both normal and anomalous data points.
+- Plotting the reconstruction loss for both normal and anomalous data points.
 - A threshold is set to distinguish between normal and anomalous points based on the reconstruction error.
 
 ## Conclusion:
-This notebook provides a simple yet effective demonstration of using an autoencoder for anomaly detection. By training the autoencoder on normal data and calculating reconstruction loss, anomalies can be detected when the model fails to accurately reconstruct the data.
+This project provides a simple yet effective demonstration of using an autoencoder for anomaly detection. By training the autoencoder on normal data and calculating reconstruction loss, anomalies can be detected when the model fails to accurately reconstruct the data.
 """
 
 
